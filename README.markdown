@@ -51,7 +51,7 @@ List of supported methods to interact with cartoDB:
 
 ####1. Create table.
 
-Creates a new table in cartoDB. The table's name will be normalized, for example, 'table #1' will become 'table\_1'.
+Creates a new table in cartoDB.
 
 Arguments:
 
@@ -63,7 +63,7 @@ Arguments:
 
 Example:
 
-    CartoDB::Connection.create_table 'table #1', [{:name => 'field1', :type => 'text'}], 'POINT'
+    CartoDB::Connection.create_table 'table_1', [{:name => 'field1', :type => 'text'}], 'POINT'
 
 Results:
 
